@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("로그", "두번째 branch 입니다.");
         Log.d("로그", "두번째 branch merge 테스트 입니다.");
+        //merge 종료
     }
 }
