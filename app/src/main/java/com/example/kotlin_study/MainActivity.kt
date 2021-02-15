@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.d("로그", "테스트 입니다.");
+        Log.d("로그", "두번째 branch 입니다.");
     }
 }
