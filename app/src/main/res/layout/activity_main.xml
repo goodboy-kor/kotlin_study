@@ -16,25 +16,4 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tablayout"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/main_tv">
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="탭 1번" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="탭 2번" />
-
-    </com.google.android.material.tabs.TabLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
